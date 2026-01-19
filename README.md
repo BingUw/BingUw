@@ -1,5 +1,5 @@
 ## Hi there 👋
-
+Welcome to my channel. I am a graduate student from Hangzhou Dianzi University, majoring in Computer Science and Technology. I am currently studying about segmentation models
 <!--
 **BingUw/BingUw** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
