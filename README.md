@@ -2,7 +2,7 @@
 
 <!-- ═══════════════ 动态打字横幅 ═══════════════ -->
 <a href="https://github.com/BingUw">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=30&duration=3000&pause=800&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=%E2%9C%A8+Wu+Jianbin+%7C+%E5%90%B4%E5%BB%BA%E6%96%8C+%E2%9C%A8;Computer+Vision+%C2%B7+Segmentation+%C2%B7+Deep+Learning" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=30&duration=3000&pause=800&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=%E2%9C%A8+BingUw+%E2%9C%A8;Computer+Vision+%C2%B7+Segmentation+%C2%B7+Deep+Learning" alt="Typing SVG" />
 </a>
 
 <br/>
@@ -26,7 +26,7 @@
 ## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> &nbsp;About Me
 
 ```yaml
-name: Wu Jianbin (吴建斌)
+name: BingUw
 located_in: Hangzhou, China
 university: Hangzhou Dianzi University (杭州电子科技大学)
 degree: M.S. in Computer Science and Technology
