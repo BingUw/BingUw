@@ -54,6 +54,7 @@ jobs:
 ## 4. 自定义
 
 - 改 `README.md` 里的学校链接、研究方向、徽章（TensorFlow / JS 等可删可换）
-- 统计图来自 [github-readme-stats](https://github.com/anuraghazra/github-readme-stats)，若加载慢可换主题或自建
+- 统计卡片使用 [Rickstaa 镜像](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/)：官方 `github-readme-stats.vercel.app` 常因 **Vercel 部署暂停** 出现 503，故已改用镜像；若将来镜像也失效，可自行 [fork 部署](https://github.com/anuraghazra/github-readme-stats) 或使用 [官方推荐的 GitHub Action 生成 SVG](https://github.com/marketplace/actions/github-readme-stats-action)。
+- 连续贡献图请使用 **`streak-stats.demolab.com`**，旧域名 `github-readme-streak-stats.demolab.com` 可能无法加载。
 
 访问你的主页：<https://github.com/BingUw>

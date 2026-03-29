@@ -19,14 +19,16 @@ Focused on **segmentation models** and visual understanding — building tools t
 </td>
 <td>
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=BingUw&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github)
+<!-- 官方 github-readme-stats.vercel.app 常因部署暂停返回 503，此处使用社区维护的 Rickstaa 镜像 -->
+<img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=BingUw&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&cache_seconds=86400" alt="GitHub stats" width="465" />
 
 </td>
 </tr>
 </table>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.demolab.com/?user=BingUw&theme=tokyonight&hide_border=true" alt="streak" />
+  <!-- 请使用 streak-stats.demolab.com（github-readme-streak-stats.demolab.com 已弃用） -->
+  <img src="https://streak-stats.demolab.com/?user=BingUw&theme=tokyonight&hide_border=true&cache_seconds=86400" alt="GitHub streak stats" width="495" />
 </p>
 
 ---
@@ -48,7 +50,7 @@ Focused on **segmentation models** and visual understanding — building tools t
 
 ### Highlight repos
 
-[![pip-force](https://github-readme-stats.vercel.app/api/pin/?username=BingUw&repo=pip-force&theme=tokyonight&hide_border=true)](https://github.com/BingUw/pip-force)
+[![pip-force](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=BingUw&repo=pip-force&theme=tokyonight&hide_border=true&cache_seconds=86400)](https://github.com/BingUw/pip-force)
 
 <!-- 贡献蛇：在仓库里新建 `.github/workflows/snake.yml`（见本仓库 SETUP-zh.md），推送并运行 Actions 后取消下面注释即可
 ### Contribution snake
