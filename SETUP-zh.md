@@ -8,18 +8,48 @@
 
 ## 2. 上传本目录内容
 
-把本文件夹里的内容推送到 `BingUw` 仓库根目录：
+把本文件夹里的内容推送到 `BingUw` 仓库根目录（至少包含 `README.md`）。
 
-- `README.md` → 根目录
-- `.github/workflows/snake.yml` → 同上路径（用于贡献蛇动画）
+## 3. 贡献蛇动画（可选，需 `workflow` 权限的 Token 或网页创建）
 
-## 3. 开启 Actions（若要蛇图）
+若用 **git push** 推送含 `.github/workflows/*.yml` 的文件，Personal Access Token 需勾选 **`workflow`** 范围，否则会推送失败。
 
-仓库 **Settings → Actions → General**，允许 Actions。  
-打开 **Actions** 标签，选中 **Generate contribution snake**，点 **Run workflow**。  
-成功后会出现 `output` 分支，README 里的蛇图链接才会生效。
+**方式 A（推荐）**：在 GitHub 网页 **Add file → Create new file**，路径填 `.github/workflows/snake.yml`，粘贴以下内容并提交：
 
-若不需要蛇图：删除 README 里「Contribution snake」整段，并可删掉 `.github/workflows/snake.yml`。
+```yaml
+name: Generate contribution snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  snake:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: dist/github-contribution-grid-snake.svg
+      - uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+```
+
+然后在 **README.md** 里取消「Contribution snake」那一段的 HTML 注释，并推送 README。
+
+**方式 B**：本地 Token 勾选 `workflow` 后，再 `git push` 包含该 workflow 的提交。
+
+仓库 **Settings → Actions → General** 允许 Actions 后，在 **Actions** 里手动 **Run workflow**。生成 **`output`** 分支后蛇图链接才有效。
+
+若不需要蛇图：保持 README 里蛇图段落为注释即可。
 
 ## 4. 自定义
 

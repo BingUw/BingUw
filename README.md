@@ -50,13 +50,10 @@ Focused on **segmentation models** and visual understanding — building tools t
 
 [![pip-force](https://github-readme-stats.vercel.app/api/pin/?username=BingUw&repo=pip-force&theme=tokyonight&hide_border=true)](https://github.com/BingUw/pip-force)
 
----
-
+<!-- 贡献蛇：在仓库里新建 `.github/workflows/snake.yml`（见本仓库 SETUP-zh.md），推送并运行 Actions 后取消下面注释即可
 ### Contribution snake
-
 <img src="https://raw.githubusercontent.com/BingUw/BingUw/output/github-contribution-grid-snake.svg" alt="contribution snake animation" />
-
-<!-- 推送后可在 Actions 里手动运行一次 Generate contribution snake，生成 output 分支后蛇图会显示 -->
+-->
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=BingUw&color=blueviolet&style=flat&label=Profile+views" alt="views" />
