@@ -1,10 +1,3 @@
-<!-- 
-  使用说明：
-  1. 在 GitHub 上新建仓库，仓库名必须与你的用户名完全一致：BingUw
-  2. 勾选 Public，勾选 "Add a README file" 或稍后把本文件内容粘贴进去
-  3. 将本 README.md 内容复制到该仓库根目录的 README.md 并推送
--->
-
 <div align="center">
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+Wu+Jianbin+%F0%9F%91%8B;Computer+Vision+%26+Segmentation;Hangzhou+Dianzi+University" alt="Typing SVG" />
@@ -63,7 +56,7 @@ Focused on **segmentation models** and visual understanding — building tools t
 
 <img src="https://raw.githubusercontent.com/BingUw/BingUw/output/github-contribution-grid-snake.svg" alt="contribution snake animation" />
 
-<!-- 需先推送本仓库（含 .github/workflows/snake.yml），在 Actions 里手动运行一次 workflow，生成 output 分支后上图才显示 -->
+<!-- 推送后可在 Actions 里手动运行一次 Generate contribution snake，生成 output 分支后蛇图会显示 -->
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=BingUw&color=blueviolet&style=flat&label=Profile+views" alt="views" />
