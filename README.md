@@ -2,7 +2,7 @@
 
 <!-- ═══════════════ 动态打字横幅 ═══════════════ -->
 <a href="https://github.com/BingUw">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=30&duration=3000&pause=800&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=%E2%9C%A8+BingUw+%E2%9C%A8;Computer+Vision+%C2%B7+Segmentation+%C2%B7+Deep+Learning" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=1000&height=130&lines=%E2%9C%A8+BingUw+%E2%9C%A8;Computer+Vision+%C2%B7+Segmentation+%C2%B7+Deep+Learning" alt="Typing SVG" />
 </a>
 
 <br/>
